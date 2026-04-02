@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Disallow admin area from indexing
+Disallow: /admin/
+Disallow: /admin/login
+Disallow: /admin/leads
+Disallow: /admin/profile
+
+# Sitemap location
+Sitemap: https://svdentalkamareddy.com/sitemap.xml
+
+# Crawl delay (be nice to small servers)
+Crawl-delay: 1
